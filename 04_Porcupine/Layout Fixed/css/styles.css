@@ -6,6 +6,10 @@ body {
 	padding: 0;
 }
 
+body, html {
+	height: 100%;
+}
+
 #container {
 	width: 1200px;
 	margin: auto;
@@ -20,7 +24,9 @@ header#top {
 
 #logo{
 	float: left;
+	font-weight: bold;
 }
+
 
 header nav {
 	float: right;
@@ -63,6 +69,7 @@ a[href$="twitter.com"]{
 #banner {
 	position: relative;
 	color: #e0ddd4;
+
 }
 #bannerText {
 	position: absolute;
@@ -74,14 +81,42 @@ font-size: 60px;
 text-transform: uppercase;
 }
 
+#bannerText h2 {
+font-size: 20px;
+}
 
-/* ASIDE */
+
+/* Main */
 .col_720 {
 	width: 720px;
 	float: left;
 	margin-right: 80px;
+	margin-top: -15px;
 }
 
+.col_720 h1 {
+	font-weight: bold;
+
+}
+
+.col_720 h2 {
+	font-weight: bold;
+	color: #189893; /*Blue*/
+	font-size: 18px;
+	margin-bottom: -15px;
+}
+
+.space {
+	margin-bottom: 30px;
+}
+
+.col_720 a {
+	font-size: 16px;
+	
+}
+
+
+/* ASIDE */
 .col_260 {
 	width: 260px;
 	float: left;
@@ -100,23 +135,76 @@ text-transform: uppercase;
 	padding: 20px;
 }
 
+.asidetext h2{
+	font-weight: bold;
+}
+
+.asidetext p{
+	font-weight: bold;
+	margin-top: 0px;
+	padding-bottom: 20px;
+}
+
+.asidetext a{
+	background: #189893; /*Blue*/
+	padding: 10px 30px ;
+
+}
+
+.asidetext a:link {
+	color: white;
+	text-transform: uppercase;
+}
+
+.asidetext a:visited {
+	color: white;
+	text-transform: uppercase;
+}
+
 aside{
 	background: #e0ddd4;	
 }
 
+/* FOOTER */
+
+.col_320 {
+	width: 320px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
 
 footer{
 	background: #3A3A4A;
 	color: #e0ddd4; 
+	padding: 70px 70px;
 }
 
+footer h2 {
+	display: inline-block;
+}
+
+footer nav ul {
+	list-style-type: none;
+}
+
+footer nav ul li {
+	display: inline-block;
+}
+
+footer nav ul li a:link {
+	color: #3A3A4A; 
+	text-transform: uppercase;;
+} 
+
 .wrap {
-	padding: 75px 70px;
+	padding: 70px 70px;
 }
 
 .clearflt {
 	clear: both;
 }
+
 
 /* TEXT */
 h1, h2 {
@@ -132,7 +220,7 @@ h1 {
 }
 
 h2 {
-	font-size: 24;
+	font-size: 20;
 	font-weight: normal;
 }
 
