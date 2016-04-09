@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background: #f9e933;
 }
 
@@ -49,4 +50,35 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+=======
+background: #f9e933;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header .content, main .content, footer .content {
+	max-width: 855px;
+	margin: auto; 
+}
+
+header {
+	background: white;
+	overflow: auto;
+}
+
+header h1{
+	float: left;
+	width: 570px;
+}
+
+header nav{
+	float: right;
+	width: 285px;
+}
+
+main {
+	background: white;
+>>>>>>> 34c999f2e736261cb2fe529ec25f951fd9e603de
 }
