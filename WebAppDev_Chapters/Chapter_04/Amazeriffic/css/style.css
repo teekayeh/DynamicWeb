@@ -1,6 +1,5 @@
 body {
-  background: #f9e933;
-  font-family: 'Droid Sans', sans-serif;
+  background: #ffff99;
 }
 
 header, main, footer {
@@ -19,21 +18,9 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-/* MAIN LOGO */
 h1 {
-  font-family: 'Ubuntu', sans-serif;
-  font-style: italic;
-  font-size: 3em;
-  color: #b33;
   float: left;
   width: 570px;
-}
-
-/* FOOTER HEADINGS */
-h5 {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.25em;
-    margin-bottom: 20px;
 }
 
 header nav {
@@ -42,7 +29,7 @@ header nav {
 }
 
 a {
-  color: #f00;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -51,20 +38,6 @@ main {
     background: #fff;
     border-radius: 0 5px 5px 5px;;
     padding: 40px;
-}
-
-.tabs a span {
-    border-radius: 5px 5px 0 0;
-    display: inline-block;
-    width: 100px;
-    margin-right: 10px;
-    text-align: center;
-    background: #ddd;
-    padding: 5px;
-}
-
-.tabs a .active {
-    background: #eee;
 }
 
 main .content {
@@ -98,6 +71,21 @@ main .content p {
 main .content input {
     font-size: 1.5em;
 }
+
+.tabs a span {
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #aaa;
+    padding: 5px;
+}
+
+.tabs a span.active {
+  background: #eee;
+}
+
 
 footer {
     border-top: 1px solid #ddd;
