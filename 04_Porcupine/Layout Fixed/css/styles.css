@@ -11,7 +11,7 @@ body, html {
 }
 
 #container {
-	width: 1200px;
+	max-width: 1200px;
 	margin: auto;
 	box-shadow: 0px 0px 5px #999;
 }
@@ -85,12 +85,15 @@ text-transform: uppercase;
 font-size: 20px;
 }
 
-
+img {
+	width: 100%;
+}
 /* Main */
 .col_720 {
-	width: 720px;
+	/*width: 720px;*/
+	width: 67.92%;
 	float: left;
-	margin-right: 80px;
+	margin-right: 7.54%; /*80*/
 	margin-top: -15px;
 }
 
@@ -168,10 +171,15 @@ aside{
 /* FOOTER */
 
 .col_320 {
-	width: 320px;
+	width: 30.18%;
 	float: left;
-	overflow: hidden;
-	position: relative;
+	
+}
+
+
+.col_320:nth-child(2) {
+margin: 0 50px ;
+
 }
 
 footer{
@@ -186,11 +194,12 @@ footer h2 {
 
 footer nav ul {
 	list-style-type: none;
+	padding: 0;
+	columns: 50px 2;
+	-webkit-columns:50px 2;
+	-moz-colums:50px 2;
 }
 
-footer nav ul li {
-	display: inline-block;
-}
 
 footer nav ul li a:link {
 	color: #3A3A4A; 
@@ -198,7 +207,8 @@ footer nav ul li a:link {
 } 
 
 .wrap {
-	padding: 70px 70px;
+	/*padding: 70px 70px;*/
+	padding: 5.83% 5.83%;
 }
 
 .clearflt {
@@ -237,4 +247,21 @@ a:link {
 q {
 	font-family: cambria, georgia, serif;
 	font-size: 24;
+}
+
+@media screen and (max-width: 660px){
+	.col_720 {
+		float: none;
+		width: 100%;
+		padding-bottom: 40px;
+		border-bottom: 1px solid #333;
+		margin-bottom: 40px;
+	}
+
+	.col_260 {
+		width: 60%;
+		margin: auto;
+		float: none;
+	}
+
 }
