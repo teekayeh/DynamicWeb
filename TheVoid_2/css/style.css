@@ -16,6 +16,10 @@ body
 {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  background: black;
+>>>>>>> b263c14e55641498fb94f95727aa5bd67349e689
   color: white;
   font: serif;
   font-weight: 300;
@@ -66,13 +70,21 @@ a:active {
 }
 
 
+<<<<<<< HEAD
 /* Header + Navs */
+=======
+/* Header + Nav */
+>>>>>>> b263c14e55641498fb94f95727aa5bd67349e689
 header {
   width: 100%;
   height: 100%;
   position: fixed; 
+<<<<<<< HEAD
   /*background: black;*/
   background-image: url(../images/void.jpg);
+=======
+  background: black;
+>>>>>>> b263c14e55641498fb94f95727aa5bd67349e689
 }
 
 header .name {
@@ -101,19 +113,31 @@ nav {
   margin-left: -250px;
 }
 
+<<<<<<< HEAD
 nav  ul {
+=======
+nav ul {
+>>>>>>> b263c14e55641498fb94f95727aa5bd67349e689
   margin: 0;
   padding-left: 0;
   text-align: center;
 }
 
+<<<<<<< HEAD
 nav  ul li {
+=======
+nav ul li {
+>>>>>>> b263c14e55641498fb94f95727aa5bd67349e689
   list-style: none;
   display: inline-block;
   padding-right: 20px;
 }
 
+<<<<<<< HEAD
 nav  ul a {
+=======
+nav ul a {
+>>>>>>> b263c14e55641498fb94f95727aa5bd67349e689
     text-decoration: none;
     text-align:center;
     padding:0 1em;
@@ -121,6 +145,13 @@ nav  ul a {
 }
 
 
+<<<<<<< HEAD
+=======
+.content {
+  padding: 50px 2% 250px;
+}
+
+>>>>>>> b263c14e55641498fb94f95727aa5bd67349e689
 
 /* @ MEDIA */
 
