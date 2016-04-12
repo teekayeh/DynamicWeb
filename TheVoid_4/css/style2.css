@@ -1,4 +1,4 @@
-
+ 
 /* THE VOID*/
 /* CSS */
 /* Refs from .... */
@@ -48,7 +48,7 @@ p {
   font-size: 17px;
   margin-bottom: 20px;
   line-height: 2;
-  color: black;
+  color: white;
 }
 
 
@@ -257,71 +257,6 @@ main .content h1 {
 main .content input {
     font-size: 1.5em;
 }
-/* Section 01 */
-
-main .info {
-color: black; 
-margin-left: 45px;
-margin-right: 45px;
-font-weight: bold;
-text-decoration: none;
-font-family: 'Poiret One', cursive;
-}
-
-/* Section 02 */
-
-.comment {
-  width: 100%;
-}
-
-.comment p {
-  padding: 5px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-
-.comment p:nth-child(even) {
-    background: lavender;
-}
-
-.comment p:nth-child(odd) {
-    background: gainsboro;
-}
-
-
-/* Section 03 */
-
-.name-input {
-  width: 25%;
-  margin-left: 45px;
-}
-
-.comment-input {
-  width: 90%;
-  margin: auto;
-}
-
-.comment-input p {
-  margin-bottom: 10px;
-}
-
-.comment-input input {
-  width: 80%;
-  height: 30px;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.comment-input button {
-  font-weight: bold;
-  padding: 3px;
-  border-radius: 5px;
-  color: ivory;
-  background: olivedrab;
-  cursor: pointer;
-  font-size: 1.5em;
-  margin-left: 5px;
-}
 
 
 
@@ -330,11 +265,13 @@ font-family: 'Poiret One', cursive;
 footer .container {
   max-width: 925px;
   margin: auto;
+
 }
 
 footer {
     border-top: 1px solid #ddd;
-    padding: 40px 0 20px 0;
+    padding: 20px 0 40px 0;
+    margin-bottom: 10%;
 }
 
 footer .sitemap {
@@ -378,6 +315,13 @@ footer .sitemap .right {
     padding: 7px 0;
     margin: 0;
   }
+
+  .zeroOne .content .zeroWords h1 {
+  color: white; 
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 0%;
+}
+
 
 }
 
